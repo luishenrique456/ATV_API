@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="apibr.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta Informação do seu Estado</h1>
+        <label for="inputsigla">Digite uma silga do seu Estado</label>
+        <input type="text" id="inputsigla" placeholder="Ex : SP">
+        <button onclick="consulta_informacao_sigla()">Consulta seu Estado</button>
+
+        <div id="resultado"></div>
+
+        <div class="botao_limpar">
+            <button onclick="botao_limpa()">limpa</button>
+        </div>
+
+
+    </div>
+
+    <p></p>
+    
+
+</body>
+</html>
