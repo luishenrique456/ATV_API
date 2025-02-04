@@ -21,12 +21,17 @@ header{
 }
 
 
+nav{
+    gap: 40px;
+    display: flex;
+}
+
+
 nav a {
     text-decoration: none;
     font-family:"Oswald" ;
     justify-content: center;
     color: #9d4edd;
-    gap: 20px;
 }
 
 nav a:hover{
@@ -103,5 +108,4 @@ footer{
     justify-content: center;
     align-items: center;
 }
-
 
