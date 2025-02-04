@@ -5,14 +5,49 @@ header{
     background: #c4b3e5;
     border-radius: 30px;
     color: aliceblue;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    max-width: 1200px;
+    margin: 0 auto;  
+}
+
+.logo-texto h1{
+    text-align: center;
+    flex-grow: 1;
+    font-size: 40px;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family:"Oswald" ;
+    justify-content: center;
+    color: #9d4edd;
+    gap: 20px;
+}
+
+nav a:hover{
+    color: #3c096c;
+}
+
+
+
+.img-logo {
+    width: 150px; 
+    height: 150px; 
+    object-fit: contain;
+    border-radius: 20px;
 }
 
 body{
     background: #e7e0f5;
     text-align: center;
     font-size: 20px;
-    
+    margin: 0;
+    padding: 0;
 }
 
 #post-container {
